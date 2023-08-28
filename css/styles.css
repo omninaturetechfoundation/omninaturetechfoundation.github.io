@@ -918,7 +918,7 @@ footer {
     .banner-container {
         width: 100%;
         background-size: contain;
-        height: 270px;
+        height: 100%;
     }
 
     .bannerOverlay {
@@ -996,11 +996,11 @@ footer {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 360px) {
     .banner-container {
         width: 100%;
         background-size: contain;
-        height: 180px;
+        height: 100%;
     }
 
     .bannerOverlay {
