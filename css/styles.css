@@ -751,11 +751,6 @@ hr {
     border-color: #ddd;
 }
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 #navigation {
     position: fixed;
     top: 0;
