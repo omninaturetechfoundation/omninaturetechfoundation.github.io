@@ -1,4 +1,9 @@
-
+/*
+Theme Name: Green Corp 
+Author URI: http://webthemez.com/
+Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
+License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
+*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900,500);
 
 * {
@@ -14,30 +19,14 @@ body {
     background: #fff;
 }
 
-.loader {
-  width: 100%;
-  height: 100%;
-  background-color: #FFFFFF;
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  z-index: 1000;
-}
-
-.loader .inner {
-  width: 100%;
-  height: 100%;
-  background: url(../images/loader.gif) center center no-repeat;
-}
-
 ::selection {
     color: #fff;
-    background:  #36a127;
+    background: #80B421;
 }
 
 ::-moz-selection {
     color: #fff;
-    background:  #36a127;
+    background: #80B421;
 }
 
 p {
@@ -76,7 +65,7 @@ p {
     }
 
 a {
-    color:  #36a127;
+    color: #80B421;
     text-decoration: none;
     text-shadow: none;
     -webkit-transition: all 0.2s linear;
@@ -87,7 +76,7 @@ a {
 }
 
     a:hover {
-        color:  #36a127;
+        color: #6EAA00;
         text-decoration: none;
     }
 
@@ -97,30 +86,16 @@ a {
 }
 
     .btn:hover {
-        background:  #36a127;
+        background: #6EAA00;
     }
 
 .btn-primary {
-    background: #36a127;
+    background: #80B421;
 }
-
 
 .form-control {
-    width: 300px;
-    
     border-radius: 0px;
-  
 }
-#enquiry h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#enquiry .btn{
-    
-  margin-left: 100px;
-}
-
 
 .mrgn30 {
     margin: 30px 0;
@@ -155,20 +130,20 @@ a {
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color:  #36a127;
-    background-color:  #36a127;
+    border-color: #80B421;
+    background-color: #80B421;
 }
 
     .navbar-inverse .navbar-toggle .icon-bar {
-        /*background-color:  #36a127;*/
+        /*background-color: #80B421;*/
     }
 
     .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-        background:  #36a127;
+        background: #80B421;
     }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color:  #36a127;
+    color: #80B421;
 }
 
 .navbar-inverse .navbar-toggle:hover .icon-bar {
@@ -180,7 +155,7 @@ a {
 /*.carousel-inner*/
 #myCarousel {
     margin-top: 50px;
-    
+    border-bottom: 4px solid #80B421;
 }
 
 .carousel-inner > .item {
@@ -196,7 +171,7 @@ a {
     .carousel-caption h1 {
         font-size: 45px;
         padding: 10px 15px;
-        background: #36a127;
+        background: rgba(128, 180, 33, 0.80);
         color: #FFFFFF;
         text-shadow: none;
         font-weight: bold;
@@ -224,7 +199,7 @@ a {
 
 .actionPanel {
     padding: 25px 0;
-    background:  #36a127;
+    background: #80B421;
 }
 
     .actionPanel h3 {
@@ -232,7 +207,7 @@ a {
     }
 
 .circle {
-    background:  #36a127;
+    background: #80B421;
     height: 60px;
     width: 60px;
     border-radius: 35px;
@@ -245,62 +220,21 @@ a {
     padding: 16px 15px;
     line-height: 18px;
     height: 50px;
-    /*color: #36a127;*/
+    /*color:#80B421;*/
 }
 
 .navbar-brand b {
-    color: #36a127;
-}
-.logoLeft{
-   
-    width: 400px;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    margin: 0 20px;
-}
-.btn-enq{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:  #012fcd;
-    width: 150px;
-    height: 35px;
-    color: white;
-    border-radius: 5px;
-    margin-left: 85%;
-    cursor: pointer;
-    
-}
-.btn-enq a{
-    color: white;
-}
-.logo img{
-    width: 60px;
-    height: 60px;
-    margin: 10px;
-}
-.logoLeft .text{
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    color:#36a127;
-}
-.logoLeft .text span{
-    font-weight: 300;
-    color: #012fcd;
-    text-transform: capitalize;
-    transition: 0.3s ;
-}
-.logoLeft .text span:hover{
-    color: #FFFFFF;
-   
+    color: #80B421;
 }
 
-
+.logo {
+    font-size: 2.2em;
+    text-shadow: none;
+    margin: 8px 0 0 0;
+}
 
     .logo:hover {
-        color: #464646;
+        color: #5A5A5A;
     }
 
 
@@ -322,13 +256,13 @@ a {
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
     color: #fff;
-    border-bottom: 2px solid  #36a127;
+    border-bottom: 2px solid #80B421;
     box-sizing: border-box;
-    background:  #36a127;
+    background: #80b421;
 }
 
 .navbar-nav > li:hover > a {
-    color:  #36a127;
+    color: #80B421;
 }
 
 .header .navbar-nav > li > a {
@@ -356,7 +290,7 @@ a {
     }
 
 .page-section h2 {
-    color:  #36a127;
+    color: #80B421;
 }
 
 .page-section p {
@@ -373,9 +307,8 @@ a {
     }
 
     .darkBg .fa {
-        color:  #36a127;
+        color: #80B421;
     }
-
 /*--- Banner ----*/
 #overlay {
     position: fixed;
@@ -433,7 +366,7 @@ a {
 
     .sub-heading h2 {
         font-size: 18px;
-        margin: 20px 0 8px !important;
+        margin: 15px 0 8px !important;
     }
 
     .sub-heading p {
@@ -451,39 +384,19 @@ a {
 .pdingBtm30 {
     padding-bottom: 30px;
 }
-
 /* Services
     -------------------------------------------------*/
-.row{
-    padding: 12px;
-    
-    box-shadow: 0px 9px 23px -3px rgba(0,0,0,0.55);
-}
-.servicerow{
-    display: flex;
-   
-    justify-content: center;
-}
 .grid .text-content {
     padding-left: 35%;
-  
-    
-}
-.text-center{
-    margin: 20px;
 }
 
 .grid .text-content {
     display: block;
-    
-   
+    padding-left: 19%;
+    padding-right: 8%;
 }
 
-
 .grid .grid-item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .grid .text-content h5 {
@@ -491,11 +404,10 @@ a {
 }
 
 .grid .grid-item .item-content {
-    display: grid;
+    display: block;
     outline: none;
     text-decoration: none;
     padding: 20px 0;
-    
 }
 
 .item-content .fa {
@@ -511,23 +423,14 @@ a {
 }
 
 .member-img {
-   
-
+    border: 2px solid #80B421;
+    border-radius: 188px;
+    overflow: hidden;
 }
 
 .team-member .member-img img {
     max-width: 250px;
     margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 0px 4px 23px -3px rgba(0,0,0,0.4); 
-    /*border:2px #D3D3D3 solid;*/
-}
-.team-member .member-img img:hover {
-    max-width: 250px;
-    margin: 0 auto;
-    border-radius: 50%;
-    box-shadow: 0px 4px 23px -3px rgba(0,0,0,0.4); 
-    
     /*border:2px #D3D3D3 solid;*/
 }
 
@@ -607,12 +510,12 @@ nav#filter {
     nav#filter a {
         padding: 4px 12px;
         line-height: 20px;
-        border: 1px solid  #36a127;
+        border: 1px solid #80B421;
         text-decoration: none;
     }
 
 .current {
-    background:  #36a127;
+    background: #80B421;
     color: #fff;
 }
 
@@ -704,22 +607,8 @@ nav#filter {
 }
 
 .btn {
-   
     font-weight: 200;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
-
-#enquiry .row{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
-}
-
 
 .btn-dark {
     background: #444;
@@ -824,8 +713,8 @@ footer {
     }
 
 .spclBtn {
-  background: #012fcd;
-    color:white;
+    background: rgba(255, 255, 255, 0.73);
+    color: #000;
 }
 
 @media (min-width: 768px) {
@@ -1055,9 +944,4 @@ footer {
         display: inline-block;
         margin: 0 0 23px 5px;
     }
-}
-.copyright .container .row .col-sm-12{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
 }
